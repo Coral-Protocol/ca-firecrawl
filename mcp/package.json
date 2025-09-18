@@ -1,0 +1,15 @@
+{
+  "name": "mcp",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "run": "node src/index.js"
+  },
+  "dependencies": {
+    "firecrawl-mcp": "^3.2.0"
+  }
+}
