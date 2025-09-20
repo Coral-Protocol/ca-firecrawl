@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Webscraping agent with tools to extract data from websites"
 
 [options]
+FIRECRAWL_API_KEY = { type = "string", description = "The Firecrawl API key to use" }
 OPENROUTER_API_KEY = { type = "string", description = "The OpenRouter API key to use" }
 SYSTEM_PROMPT_SUFFIX = { type = "string", description = "Optional suffix to include in the system prompt", default = "" }
 LOOP_PROMPT_SUFFIX = { type = "string", description = "Optional suffix to include in the loop prompt", default = "" }

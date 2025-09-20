@@ -43,6 +43,9 @@ struct Config {
 async fn main() {
     tracing_subscriber::fmt::init();
 
+    // FIRECRAWL_API_KEY must be set for the MCP server to work
+    std::env::var("FIRECRAWL_API_KEY").expect("FIRECRAWL_API_KEY must be set");
+
     let model = GPT_4_1;
     let config = Config::parse();
 
